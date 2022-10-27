@@ -1,10 +1,10 @@
 .main {
-  background: #fff;
+  
   padding: 30px;
   margin: 50px auto;
-  max-width: 500px;
-  border-radius: 4px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+  
+  
 }
 
 .main h1 {
@@ -17,4 +17,60 @@
   margin-top: 30px;
   align-items: center;
   justify-content: center;
+  max-width: 380px;
+  height: 100px;
+  background: #fff;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form input {
+  height: 40px;
+  width: 240px;
+  border-radius: 6px;
+  border: solid #DEDFE0 1px;
+}
+
+.form button {
+  width: 80px;
+  height: 40px;
+  margin-left: 20px;
+  background: #8052ec;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+}
+
+.main ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 380px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.tarefa {
+  display: flex;
+  justify-content: space-between;
+  width: 340px;
+  border-bottom:solid #DEDFE0 1px;
+  padding: 10px 0;
+}
+
+span {
+  padding: 6px;
+  font-size: 14px;
+  background: #8052ec;
+  color: #fff;
+  border-radius: 4px;
+  margin: 2px;
 }
